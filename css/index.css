@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    --primary-color-green: #32787F;
+    --primary-color-opacity: #EBF1F2;
+    --grey1: #151515;
+    --grey2: #4E4F56;
+    --grey3: #B2B4BC;
+
+}
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.color-primary-maicon {
+    color: var(--primary-color-green);
+}
+
+.color-secundary-maicon{
+    color: var(--grey2);
+}
+
+.btn-primary-maicon{
+    background-color: var(--primary-color-green);
+    color: white;
+    border-radius: 100px;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    padding-inline: 3.14rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-section {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--grey1);
+    font-weight: 400;
+}
+
+.subtitle-section {
+    font-weight: 400;
+    color: var(--grey2);
+    font: 1rem;
+    line-height: 23.44px;
+    text-align: center;
+}
+
+.title-card {
+font-weight: 700;
+color: var(--grey1);
+font-size: 1.4rem;
+line-height: 26.04px;
+}
+
+.text-card {
+font-weight: 400;
+color: var(--grey2);
+font-size: 1.14rem;
+line-height: 24px;
+}
+
+.card-maicon:hover {
+border-color: var(--primary-color-green);
+
+}
+
+.title-about {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--grey1);
+    line-height: 45px;
+}
+
+.list-about {
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    color: var(--grey2);
+}
