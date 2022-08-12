@@ -84,3 +84,38 @@ border-color: var(--primary-color-green);
     line-height: 23px;
     color: var(--grey2);
 }
+
+.title-contact {
+    font-size: 1.78rem;
+    color: var(--grey1);
+    line-height: 32.55px;
+}
+
+.info-contact-maicon {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 20.83px;
+    color: var(--grey1);
+    text-decoration: none;
+}
+
+.opening-hours-title {
+    font-weight: 400;
+    color: var(--grey1);
+    font-size: 1rem;
+    line-height: 18.23px;
+}
+
+.opening-hours-text {
+    font-weight: 700;
+    color: var(--grey1);
+    font-size: 1rem;
+    line-height: 18.23px;
+}
+
+.title-contact-maicon {
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 23.44px;
+color: var(--grey1);
+}
