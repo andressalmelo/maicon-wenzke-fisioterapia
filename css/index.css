@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
+/* -------------- CONFIGURAÇÕES GERAIS -----------------*/
 :root {
     --primary-color-green: #32787F;
     --primary-color-opacity: #EBF1F2;
@@ -22,17 +23,25 @@
     color: var(--grey2);
 }
 
+/* -------------- COMPONENTES -----------------*/
 .btn-primary-maicon{
     background-color: var(--primary-color-green);
     color: white;
     border-radius: 100px;
     padding-bottom: 0.8rem;
     padding-top: 0.8rem;
-    padding-inline: 3.14rem;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 12rem;
+    font-size: 1.14rem;
+    font-weight: 400;
+}
+
+.btn-primary-maicon:hover{
+    background-color: #205257;
+    color: white;
 }
 
 .title-section {
@@ -50,6 +59,23 @@
     text-align: center;
 }
 
+
+/* -------------- INÍCIO CONFIGURAÇÕES DO BANNER -----------------*/
+.title-banner {
+    font-weight: 700;
+    font-size: 3.71rem;
+}
+
+.description-banner {
+    color: var(--grey2);
+    font-weight: 400;
+    font-size: 1.28rem;
+    line-height: 23.44px;
+}
+/* -------------- FIM CONFIGURAÇÕES DO BANNER -----------------*/
+
+
+/* -------------- INÍCIO CONFIGURAÇÕES DOS CARDS -----------------*/
 .title-card {
 font-weight: 700;
 color: var(--grey1);
@@ -60,7 +86,7 @@ line-height: 26.04px;
 .text-card {
 font-weight: 400;
 color: var(--grey2);
-font-size: 1.14rem;
+font-size: 1rem;
 line-height: 24px;
 }
 
@@ -68,7 +94,10 @@ line-height: 24px;
 border-color: var(--primary-color-green);
 
 }
+/* --------------FIM CONFIGURAÇÕES DOS CARDS -----------------*/
 
+
+/* -------------- INÍCIO CONFIGURAÇÕES DO SOBRE NÓS -----------------*/
 .title-about {
     font-size: 2rem;
     font-weight: 700;
@@ -85,6 +114,14 @@ border-color: var(--primary-color-green);
     color: var(--grey2);
 }
 
+.image-about {
+    width: 35vw;
+    margin-right: 1.5rem;
+}
+/* -------------- FIM CONFIGURAÇÕES DO SOBRE NÓS -----------------*/
+
+
+/* -------------- INÍCIO CONFIGURAÇÕES DO CONTATOS -----------------*/
 .title-contact {
     font-size: 1.78rem;
     color: var(--grey1);
@@ -119,3 +156,100 @@ font-size: 1.5rem;
 line-height: 23.44px;
 color: var(--grey1);
 }
+
+.container-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* -------------- FIM CONFIGURAÇÕES DO CONTATOS -----------------*/
+
+/* -------------- INÍCIO CONFIGURAÇÕES DAS DOENÇAS -----------------*/
+.link-card {
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 20.83px;
+    color: var(--primary-color-green);
+}
+/* -------------- FIM CONFIGURAÇÕES DAS DOENÇAS -----------------*/
+
+
+/* -------------- INÍCIO CONFIGURAÇÕES DO FORMULÁRIO -----------------*/
+.card-form {
+    max-width: 39rem;
+    background-color: white;
+    padding-inline: 2.85rem;
+    padding-top: 3.57rem;
+    padding-bottom: 3.57rem;
+    border-radius: 1.42rem;
+}
+
+.button-form-maicon {
+    background-color: var(--primary-color-green);
+    color: white;
+    border-radius: 100px;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    border: none;
+}
+/* -------------- FIM CONFIGURAÇÕES DO FORMULÁRIO -----------------*/
+
+/* -------------- INÍCIO CONFIGURAÇÕES DO FOOTER -----------------*/
+.image-footer{
+    width: clamp(100px, 20vw, 300px);
+}
+/* -------------- FIM CONFIGURAÇÕES DO FOOTER -----------------*/
+
+
+
+
+
+/* -------------- INÍCIO MEDIA QUERIES -----------------*/
+@media (max-width: 1200px) {
+    .container-contact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .map-contact {
+        width: 100%;
+        height: 300px;
+        
+    }
+}
+
+@media (max-width: 990px) {
+    .image-banner{
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    .image-about {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .card-maicon {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .title-banner {
+        font-size: 2.85rem;
+    }
+    .description-banner {
+        font-size: 1.14rem;
+    }
+}
+
+
+/* -------------- FIM MEDIA QUERIES -----------------*/
+
+
+
