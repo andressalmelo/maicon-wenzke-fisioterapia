@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* -------------- CONFIGURAÇÕES GERAIS -----------------*/
+:root {
+    --primary-color-green: #32787F;
+    --primary-color-opacity: #EBF1F2;
+    --grey1: #151515;
+    --grey2: #4E4F56;
+    --grey3: #B2B4BC;
+
+}
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.color-primary-maicon {
+    color: var(--primary-color-green);
+}
+
+.color-secundary-maicon{
+    color: var(--grey2);
+}
+
+/* -------------- COMPONENTES -----------------*/
+.btn-secundary-maicon{
+    background-color: white;
+    color: var(--primary-color-green);
+    border-radius: 100px;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    font-size: 1.14rem;
+    font-weight: 400;
+    margin: auto;
+}
+
+.btn-secundary-maicon:hover{
+    background-color: #B2B4BC;
+    color: var(--primary-color-green);
+}
+
+/* -------------- INICIO BANNER -----------------*/
+.banner {
+    height: 450px;
+    background-image: url("../images/image-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-ask {
+    color: white;
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 67.7px;
+    text-align: center;
+}
+
+.subtext-ask {
+    color: white;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 26.04px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* -------------- FINAL BANNER -----------------*/
+
+/* -------------- INICIO PERGUNTAS -----------------*/
+.accordion-button {
+    font-size: 1.2rem;
+}
+
+.accordion-item {
+    border: 1px solid rgb(35, 65, 100, .15);
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background: #EBF1F2;
+    color: var(--primary-color-green);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%32787F'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+/* -------------- FINAL PERGUNTAS -----------------*/
+
+/* -------------- INICIO FOOTER -----------------*/
+
+
+@media (max-width: 990px) {
+ .icon-footer {
+    width: 24px;
+    height: 24px;
+ }
+}
+/* -------------- FINAL FOOTER -----------------*/
+
+
+

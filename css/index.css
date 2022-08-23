@@ -198,16 +198,6 @@ color: var(--grey1);
 }
 /* -------------- FIM CONFIGURAÇÕES DO FORMULÁRIO -----------------*/
 
-/* -------------- INÍCIO CONFIGURAÇÕES DO FOOTER -----------------*/
-.image-footer{
-    width: clamp(100px, 20vw, 300px);
-}
-/* -------------- FIM CONFIGURAÇÕES DO FOOTER -----------------*/
-
-
-
-
-
 /* -------------- INÍCIO MEDIA QUERIES -----------------*/
 @media (max-width: 1200px) {
     .container-contact {
@@ -229,7 +219,10 @@ color: var(--grey1);
     .image-about {
         display: none;
     }
-
+    .icon-footer {
+        width: 24px;
+        height: 24px;
+     }
 
 }
 
