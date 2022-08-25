@@ -163,6 +163,26 @@ color: var(--grey1);
 }
 /* -------------- FIM CONFIGURAÇÕES DO CONTATOS -----------------*/
 
+.card:hover{
+    border: 1px solid #205257;
+}
+
+.svg-insta{
+    text-decoration: none;
+}
+
+.link-insta {
+    text-decoration: none;
+    color: var(--primary-color-green);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.link-insta:hover{
+    color: #205257;
+}
+
+
 /* -------------- INÍCIO CONFIGURAÇÕES DAS DOENÇAS -----------------*/
 .link-card {
     font-weight: 500;
