@@ -48,7 +48,7 @@
 /* -------------- INICIO BANNER -----------------*/
 .banner {
     height: 450px;
-    background-image: url("../images/image-banner.png");
+    background-image: url("../images/image-banner-ask.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
