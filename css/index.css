@@ -223,7 +223,32 @@ color: var(--grey1);
     width: 12rem;
     border: none;
 }
+
+
 /* -------------- FIM CONFIGURAÇÕES DO FORMULÁRIO -----------------*/
+
+/* -------------- INICIO CONFIGURAÇÕES DO VIDEO ------------------*/
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* -------------- FIM CONFIGURAÇÕES DO VIDEO -----------------*/
+
 
 /* -------------- INÍCIO MEDIA QUERIES -----------------*/
 @media (max-width: 1200px) {
@@ -234,7 +259,7 @@ color: var(--grey1);
     .map-contact {
         width: 100%;
         height: 300px;
-        
+        margin-bottom: 20px;
     }
     .card-benefits {
         margin-top: 20px;
@@ -291,7 +316,10 @@ color: var(--grey1);
     .description-banner {
         font-size: 1.14rem;
     }
+
 }
+
+
 
 
 /* -------------- FIM MEDIA QUERIES -----------------*/
